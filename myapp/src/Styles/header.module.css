@@ -1,0 +1,32 @@
+@font-face {
+    font-family: chiller;
+    src: url(../Assets/CHILLER-FONT/CHILLER.TTF);
+  }
+
+
+.Head{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.Head h1 {
+    font-family: chiller;
+    font-weight: lighter;
+    font-size: 50px;
+    color: white;
+    margin: 7rem;
+}
+.Head button{
+    margin-right: 7rem;
+    width:150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #00DA98;
+    border: none;
+    color: white;
+    font-weight: lighter;
+    font-size: 20px;
+}

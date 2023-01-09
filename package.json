@@ -14,7 +14,7 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/caiotravain/personal_site/issues"
-  },
+  }, 
   "homepage": "https://github.com/caiotravain/personal_site#readme",
   "dependencies": {
     "create-react-app": "^1.2.1"

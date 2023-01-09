@@ -1,0 +1,60 @@
+.html{
+    background :linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)),url('../Assets/Background.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    background-color: #00DA98;
+    width: 800px;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 4rem;
+    border-radius: 40px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    rotate: -2deg;
+    color: white;
+    font-style: italic;
+}
+.card h1{
+    margin: 2rem;
+    text-shadow: 1px 1px 2px black;
+    font-size: 300%;
+}
+.card img{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 200px;
+    border-radius: 50%;
+}
+.card p{
+    margin-right: 2rem;
+    text-shadow: 2px 1px 6px rgba(0, 0, 0, 0.555);
+    font-size: 27px;
+    text-align: center;
+}
+.card h3{
+    -webkit-text-stroke: 2px black;
+    font-size: 200%;
+    margin-left: 30%;
+    align-self: center;
+    margin-top: 0px;
+}
+.down{
+    height: 60px;
+    width: 60px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-left: 50%;
+    margin-top: 3rem;
+    background-color: #00DA98;
+}
