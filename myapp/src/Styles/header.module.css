@@ -3,7 +3,10 @@
     src: url(../Assets/CHILLER-FONT/CHILLER.TTF);
   }
 
-
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 .Head{
     display: flex;
     flex-direction: row;
@@ -11,6 +14,10 @@
     height: 100px;
     justify-content: space-between;
     align-items: center;
+    animation: fadeIn 1s ;
+
+
+
 }
 .Head h1 {
     font-family: chiller;

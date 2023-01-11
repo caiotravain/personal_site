@@ -4,10 +4,10 @@ import styles from "../Styles/header.module.css";
 
 
 function Header(props) {
-
+  const title = props.title;
   return (
     <div className={styles.Head}>
-      <h1> Caio Travain</h1>
+      <h1> {title}</h1>
         <div>
         <button>About Me</button>
         <button >Contact Me</button>
